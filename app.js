@@ -83,7 +83,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
     else if(message.includes('open whatsapp')) {
-        window.open("https://whatsapp.com", "_blank");
+        window.open("//whatsapp", "_blank");
         const finalText = "Opening whatsapp";
         speech.text = finalText;
     }
