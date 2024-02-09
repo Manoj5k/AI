@@ -67,7 +67,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('name')) {
-        const finalText = "My name is Inertia";
+        const finalText = "My name is inertia";
         speech.text = finalText;
     }
 
@@ -85,6 +85,26 @@ function speakThis(message) {
     else if(message.includes('open whatsapp')) {
         window.open("https://whatsapp.com", "_blank");
         const finalText = "Opening whatsapp";
+        speech.text = finalText;
+    }
+    else if(message.includes('open youtube')) {
+        window.open("https://youtube.com", "_blank");
+        const finalText = "Opening youtube";
+        speech.text = finalText;
+    }
+    else if(message.includes('open facebook')) {
+        window.open("https://facebook.com", "_blank");
+        const finalText = "Opening facebook";
+        speech.text = finalText;
+    }
+    else if(message.includes('open twitter')) {
+        window.open("https://twitter.com", "_blank");
+        const finalText = "Opening twitter";
+        speech.text = finalText;
+    }
+    else if(message.includes('open telegram')) {
+        window.open("https://telegram.com", "_blank");
+        const finalText = "Opening telegram";
         speech.text = finalText;
     }
 
