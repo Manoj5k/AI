@@ -82,8 +82,8 @@ function speakThis(message) {
         const finalText = "Opening instagram";
         speech.text = finalText;
     }
-    else if(message.includes('whatsapp')) {
-        window.open("", "_blank");
+    else if(message.includes('open whatsapp')) {
+        window.open("https://whatsapp.com", "_blank");
         const finalText = "Opening whatsapp";
         speech.text = finalText;
     }
